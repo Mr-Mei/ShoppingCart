@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="偏偏骚年">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="nav_guide">
+                <a href="#">首页</a> &nbsp;&gt;&nbsp;
+                <span>我的购物车</span>
+            </div>
+            <!-- 购物车区域 -->
+            <div class="car_box">
+                <div class="car_title">
+                    <div class="sp">商品</div>
+                    <div class="gg">规格</div>
+                    <div>单价</div>
+                    <div>数量</div>
+                    <div>金额</div>
+                    <div>操作</div>
+                </div>
+                <!-- 商品列表区域 -->
+                <div class="item_list">
+                    <!-- 单个商品 购物车详情 -->
+                    <div class="item_single">
+                        <div class="check_box">
+                            <input type="checkbox" class="check_item">
+                            <img src="image/01.jpg" alt="商品图片">
+                            <h5>超级好用奔爱透明情侣杯</h5>
+                        </div>
+                        <div class="sp_gg">
+                            <p>图案选择：海豚蓝色</p>
+                            <p>形状尺寸：迷你胖肚</p>
+                        </div>
+                        <div class="sp_dj">￥<span class="sp_dj price">52.50</span></div>
+                        <div class="sp_nums">
+                            <span class="cut_num SL">-</span>
+                            <span class="num">1</span>
+                            <span class="add_num SL">+</span>
+                        </div>
+                        <div class="sp_money">￥<span class="sp_money money">52.50</span></div>
+                        <div class="handle">
+                            <p class="item_del">删除</p>
+                            <p class="my_collection">移到我的收藏</p>
+                        </div>
+                    </div>
+                    <!-- 单个商品 购物车详情 -->
+                    <div class="item_single">
+                        <div class="check_box">
+                            <input type="checkbox" class="check_item">
+                            <img src="image/02.jpg" alt="商品图片">
+                            <h5>超级好用奔爱透明情侣杯</h5>
+                        </div>
+                        <div class="sp_gg">
+                            <p>图案选择：海豚蓝色</p>
+                            <p>形状尺寸：迷你胖肚</p>
+                        </div>
+                        <div class="sp_dj">￥<span class="sp_dj price">54.50</span></div>
+                        <div class="sp_nums">
+                            <span class="cut_num SL">-</span>
+                            <span class="num">1</span>
+                            <span class="add_num SL">+</span>
+                        </div>
+                        <div class="sp_money">￥<span class="sp_money money">54.50</span></div>
+                        <div class="handle">
+                            <p class="item_del">删除</p>
+                            <p class="my_collect">移到我的收藏</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="cart_footer">
+                <div class="cart_toolbar">
+                    <div class="qx_checkbox">
+                        <input type="checkbox" id="qx" class="check_all">
+                        <label for="qx">全选</label>
+                    </div>
+                    <div class="operations">
+                        <a href="#" class="del_all">删除选中</a>
+                        <a href="#" class="add_collect">移入收藏夹</a>
+                        <a href="#" class="sp_clear">清除下架宝贝</a>
+                    </div>
+                    <div class="toolbar_right">
+                        <div class="amount_sum">
+                            <span>已选商品</span>
+                            <span id="sp_all">0</span>
+                            <span>件</span>
+                        </div>
+                        <div class="price_sum">
+                            <span>合计：</span>
+                            <span id="price_all">￥0.00</span>
+                        </div>
+                        <div class="js">
+                            <a href="#">结算</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
