@@ -1,7 +1,7 @@
 # 商品购物车模块
 ##项目预览图：
 
-！[image]()
+！[image](https://github.com/Mr-Mei/ShoppingCart/blob/master/project.png)
 
 #### 效果：实现商品订单的选择和删除，以及金额的计算，商品总额的结算
 #### 同时兼容移动端
